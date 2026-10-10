@@ -1,0 +1,15 @@
+[package]
+name = "whipserversrc-ice-panic-repro"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+gst = { package = "gstreamer", version = "0.25" }
+gst-sdp = { package = "gstreamer-sdp", version = "0.25" }
+glib = "0.22"
+gst-plugin-webrtc = { version = "0.15.4", features = ["static"] }
+
+# To test the fix, point the crate at the patched branch:
+# [patch.crates-io]
+# gst-plugin-webrtc = { git = "https://gitlab.freedesktop.org/me5/gst-plugins-rs.git", branch = "fix/whip-server-ice-gathering-complete-0.15" }

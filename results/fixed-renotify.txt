@@ -1,0 +1,563 @@
+GStreamer GStreamer 1.28.7, gst-plugin-webrtc 0.15.4-6adf9d66, mode renotify, 10 sessions, stun None
+session 1: answer status 201
+session 1: ice-gathering-state notified again
+
+(whipserversrc-ice-panic-repro:2908115): libnice-WARNING **: 14:18:28.497: Could not find component 1 in stream 1
+
+(whipserversrc-ice-panic-repro:2908115): libnice-WARNING **: 14:18:28.497: Could not find component 1 in stream 2
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:28.497: 
+Trying to dispose element bin0, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:28.498: 
+Trying to dispose element rtpbin, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:28.498: 
+Trying to dispose element webrtcbin0, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:28.498: 
+Trying to dispose element nicesink1, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:28.498: 
+Trying to dispose element transportsendbin1, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:28.499: 
+Trying to dispose element nicesink0, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:28.499: 
+Trying to dispose element transportsendbin0, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+session 2: answer status 201
+session 2: ice-gathering-state notified again
+
+(whipserversrc-ice-panic-repro:2908115): libnice-WARNING **: 14:18:28.845: Could not find component 1 in stream 1
+
+(whipserversrc-ice-panic-repro:2908115): libnice-WARNING **: 14:18:28.845: Could not find component 1 in stream 2
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:28.845: 
+Trying to dispose element bin3, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:28.846: 
+Trying to dispose element rtpbin, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:28.846: 
+Trying to dispose element webrtcbin1, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:28.846: 
+Trying to dispose element nicesink3, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:28.846: 
+Trying to dispose element transportsendbin3, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:28.846: 
+Trying to dispose element nicesink2, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:28.846: 
+Trying to dispose element transportsendbin2, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+session 3: answer status 201
+session 3: ice-gathering-state notified again
+
+(whipserversrc-ice-panic-repro:2908115): libnice-WARNING **: 14:18:29.193: Could not find component 1 in stream 1
+
+(whipserversrc-ice-panic-repro:2908115): libnice-WARNING **: 14:18:29.193: Could not find component 1 in stream 2
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:29.194: 
+Trying to dispose element bin6, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:29.196: 
+Trying to dispose element rtpbin, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:29.196: 
+Trying to dispose element webrtcbin2, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:29.196: 
+Trying to dispose element nicesink5, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:29.196: 
+Trying to dispose element transportsendbin5, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:29.196: 
+Trying to dispose element nicesink4, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:29.196: 
+Trying to dispose element transportsendbin4, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+session 4: answer status 201
+session 4: ice-gathering-state notified again
+
+(whipserversrc-ice-panic-repro:2908115): libnice-WARNING **: 14:18:29.574: Could not find component 1 in stream 1
+
+(whipserversrc-ice-panic-repro:2908115): libnice-WARNING **: 14:18:29.574: Could not find component 1 in stream 2
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:29.575: 
+Trying to dispose element bin9, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:29.576: 
+Trying to dispose element rtpbin, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:29.576: 
+Trying to dispose element webrtcbin3, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:29.576: 
+Trying to dispose element nicesink7, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:29.576: 
+Trying to dispose element transportsendbin7, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:29.576: 
+Trying to dispose element nicesink6, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:29.576: 
+Trying to dispose element transportsendbin6, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+session 5: answer status 201
+session 5: ice-gathering-state notified again
+
+(whipserversrc-ice-panic-repro:2908115): libnice-WARNING **: 14:18:29.927: Could not find component 1 in stream 1
+
+(whipserversrc-ice-panic-repro:2908115): libnice-WARNING **: 14:18:29.927: Could not find component 1 in stream 2
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:29.928: 
+Trying to dispose element bin12, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:29.929: 
+Trying to dispose element rtpbin, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:29.929: 
+Trying to dispose element webrtcbin4, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:29.929: 
+Trying to dispose element nicesink9, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:29.929: 
+Trying to dispose element transportsendbin9, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:29.929: 
+Trying to dispose element nicesink8, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:29.929: 
+Trying to dispose element transportsendbin8, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+session 6: answer status 201
+session 6: ice-gathering-state notified again
+
+(whipserversrc-ice-panic-repro:2908115): libnice-WARNING **: 14:18:30.296: Could not find component 1 in stream 1
+
+(whipserversrc-ice-panic-repro:2908115): libnice-WARNING **: 14:18:30.296: Could not find component 1 in stream 2
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:30.297: 
+Trying to dispose element bin15, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:30.297: 
+Trying to dispose element rtpbin, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:30.298: 
+Trying to dispose element webrtcbin5, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:30.298: 
+Trying to dispose element nicesink11, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:30.298: 
+Trying to dispose element transportsendbin11, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:30.298: 
+Trying to dispose element nicesink10, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:30.298: 
+Trying to dispose element transportsendbin10, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+session 7: answer status 201
+session 7: ice-gathering-state notified again
+
+(whipserversrc-ice-panic-repro:2908115): libnice-WARNING **: 14:18:30.660: Could not find component 1 in stream 1
+
+(whipserversrc-ice-panic-repro:2908115): libnice-WARNING **: 14:18:30.660: Could not find component 1 in stream 2
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:30.660: 
+Trying to dispose element bin18, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:30.661: 
+Trying to dispose element rtpbin, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:30.661: 
+Trying to dispose element webrtcbin6, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:30.661: 
+Trying to dispose element nicesink13, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:30.661: 
+Trying to dispose element transportsendbin13, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:30.662: 
+Trying to dispose element nicesink12, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:30.662: 
+Trying to dispose element transportsendbin12, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+session 8: answer status 201
+session 8: ice-gathering-state notified again
+
+(whipserversrc-ice-panic-repro:2908115): libnice-WARNING **: 14:18:31.015: Could not find component 1 in stream 1
+
+(whipserversrc-ice-panic-repro:2908115): libnice-WARNING **: 14:18:31.016: Could not find component 1 in stream 2
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:31.016: 
+Trying to dispose element bin21, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:31.017: 
+Trying to dispose element rtpbin, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:31.017: 
+Trying to dispose element webrtcbin7, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:31.017: 
+Trying to dispose element nicesink15, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:31.017: 
+Trying to dispose element transportsendbin15, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:31.017: 
+Trying to dispose element nicesink14, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:31.017: 
+Trying to dispose element transportsendbin14, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+session 9: answer status 201
+session 9: ice-gathering-state notified again
+
+(whipserversrc-ice-panic-repro:2908115): libnice-WARNING **: 14:18:31.402: Could not find component 1 in stream 1
+
+(whipserversrc-ice-panic-repro:2908115): libnice-WARNING **: 14:18:31.403: Could not find component 1 in stream 2
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:31.403: 
+Trying to dispose element bin24, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:31.404: 
+Trying to dispose element rtpbin, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:31.404: 
+Trying to dispose element webrtcbin8, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:31.404: 
+Trying to dispose element nicesink17, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:31.404: 
+Trying to dispose element transportsendbin17, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:31.405: 
+Trying to dispose element nicesink16, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(whipserversrc-ice-panic-repro:2908115): GStreamer-CRITICAL **: 14:18:31.405: 
+Trying to dispose element transportsendbin16, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+session 10: answer status 201
+session 10: ice-gathering-state notified again
+done: no crash after 10 sessions
+exit status: 0

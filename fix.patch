@@ -1,0 +1,47 @@
+From b73b08f464a45aca563e9132589a6b39ff978e18 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Yannis=20G=C3=BCdel?= <me@yannisguedel.ch>
+Date: Sat, 10 Oct 2026 14:16:22 +0000
+Subject: [PATCH] webrtc: whip server: don't abort when ICE gathering completes
+ again
+
+The WHIP server signaller sends the SDP answer when webrtcbin's
+ice-gathering-state becomes complete and takes the answer channel for the
+session out of its map with expect(). webrtcbin can go back to gathering
+and complete again for the same session, and the notify handler then finds
+no channel and panics. The panic happens in a GObject notify callback and
+cannot unwind into C, so the whole process aborts.
+
+The answer was already sent the first time: ignore later completions.
+---
+ net/webrtc/src/whip_signaller/imp.rs | 15 +++++++++++----
+ 1 file changed, 11 insertions(+), 4 deletions(-)
+
+diff --git a/net/webrtc/src/whip_signaller/imp.rs b/net/webrtc/src/whip_signaller/imp.rs
+index b37019bd5..962e1040f 100644
+--- a/net/webrtc/src/whip_signaller/imp.rs
++++ b/net/webrtc/src/whip_signaller/imp.rs
+@@ -679,10 +679,17 @@ impl WhipServer {
+                                         ans = None;
+                                     }
+                                 }
+-                                let tx = settings
+-                                    .sdp_answer
+-                                    .remove(&session_id)
+-                                    .expect("SDP answer Sender needs to be valid");
++                                // webrtcbin can go back to gathering and complete
++                                // again for the same session; the answer was sent
++                                // the first time.
++                                let Some(tx) = settings.sdp_answer.remove(&session_id) else {
++                                    gst::debug!(
++                                        CAT,
++                                        obj = signaller,
++                                        "ICE gathering completed again for {session_id}, answer already sent"
++                                    );
++                                    return;
++                                };
+ 
+                                 RUNTIME.spawn(glib::clone!(
+                                     #[strong]
+-- 
+2.43.0
+
